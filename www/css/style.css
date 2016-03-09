@@ -1,19 +1,23 @@
 /* Splash page stylings */
 .splash-page {
-  background:url(/img/splash-bkg.jpg);
+  /*background:url(/img/splash-bkg.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #7765fe ;
 }
 
 .splash-page .card {
-  margin-top:40px;
+  margin-top:60px;
 }
-
+.splash-page img {
+    max-width:70%;
+    max-height:70%;
+}
 .splash-page .logo h1 {
-  margin-top:30px;
+  margin-top:60px;
   text-align:center;
   color:#fff !important;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Segoe UI Light", Geneva, sans-serif;
   font-weight:bold;
   letter-spacing: -3px;
   font-size:42px;
